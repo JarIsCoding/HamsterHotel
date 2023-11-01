@@ -1,0 +1,58 @@
+
+.heroimgchange {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-height: 500px;
+}
+.homeimgchange {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-width: 369px;
+    max-height: 416px;
+}
+.thumbnail {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 945px;
+    height: 232px;
+    color: white;
+    background-color: #000324;
+}
+
+/* Colors */
+.navbar {
+    background-color: #000324;
+}
+.white {
+    color: white;
+}
+.bgcolor {
+    background-color: #000324;
+    opacity: .8;
+}
+
+/*Movements*/
+.left {
+    margin-left: -140px;;
+}
+.dwn{
+    padding-top: 80px;
+}
+.dwnmore {
+    padding-top: 100px;
+}
+
+/* Font sizes */
+.tf {
+    font-size: 35px;
+}
+.fof {
+    font-size: 45px;
+}
