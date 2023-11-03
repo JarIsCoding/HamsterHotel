@@ -1,4 +1,12 @@
-
+.custom-color:hover {
+    border: dodgerblue;
+    border-color: white;
+    color: thistle;
+  }
+  li:hover {
+    border: 2px solid white;
+  margin: -2px;
+  }
 .heroimgchange {
     object-fit: cover;
     height: auto;
@@ -12,10 +20,28 @@
     max-width: 369px;
     max-height: 416px;
 }
+.lghomeimgchange {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-height: 500px;
+}
+.awardsmal {
+    width: auto;
+    height: 150px;
+}
+.tinyaward {
+    width:auto;
+    height: 100px;
+}
 .miniimgchange {
     object-fit: cover;
     height: auto;
     width: 100%;
+    max-width: 561px;
+    max-height: 234px;
+}
+.minitxtchange {
     max-width: 561px;
     max-height: 234px;
 }
@@ -83,7 +109,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1142px;
+    width: 1200px;
+    height: 537px;
+    color: white;
+}
+.bgcaption4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
     height: 537px;
     color: white;
 }
@@ -109,6 +144,14 @@
     width: 1137px;
     max-height: 414px;
 }
+.bgamenity {
+    width: auto;
+    height: 500px;
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
 .xlresroom {
     width: 1137px;
     max-height: 414px;
@@ -143,7 +186,6 @@
 .icon3 {
     height: 115px;
     width: 100px;
-    margin-left: 20%;
 }
 .icon4 {
     height: 110px;
@@ -163,12 +205,18 @@
 .white {
     color: white;
 }
+.blue {
+    color: blue;
+}
 .bgcolor {
     background-color: #000324;
     opacity: .8;
 }
 .bgcolor2 {
     background-color: #000324;
+}
+.black {
+    color: black;
 }
 
 /*Movements*/
