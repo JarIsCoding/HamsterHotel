@@ -22,12 +22,45 @@
 .thumbnail {
     position: relative;
 }
+.top-image {
+    margin-left: -50px;
+  }
 .caption {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 945px;
+    height: 232px;
+    color: white;
+    background-color: #000324;
+}
+.lgcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 945px;
+    height: 232px;
+    color: white;
+    background-color: #000324;
+}
+.mdcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 720px;
+    height: 232px;
+    color: white;
+    background-color: #000324;
+}
+.smcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 540px;
     height: 232px;
     color: white;
     background-color: #000324;
@@ -70,9 +103,31 @@
     width: 100%;
     max-height: 548px;
 }
+.bgimgchange3 {
+    object-fit: cover;
+    height: auto;
+    width: 1137px;
+    max-height: 414px;
+}
+.xlresroom {
+    width: 1137px;
+    max-height: 414px;
+}
+.lgresroom {
+    width: 960px;
+    max-height: 414px;
+}
+.mdresroom {
+    width: 720px;
+    max-height: 414px;
+}
+.smresroom {
+    width: 540px;
+    max-height: 414px;
+}
 .bgcaption3 {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -88,10 +143,16 @@
 .icon3 {
     height: 115px;
     width: 100px;
+    margin-left: 20%;
 }
 .icon4 {
     height: 110px;
     width: 155px;
+}
+.border {
+    margin-top: 60px;
+    width: auto;
+    height: 33px;
 }
 
 /* Colors */
@@ -106,6 +167,9 @@
     background-color: #000324;
     opacity: .8;
 }
+.bgcolor2 {
+    background-color: #000324;
+}
 
 /*Movements*/
 .left {
@@ -115,7 +179,7 @@
     padding-top: 45px;
 }
 .dwn{
-    padding-top: 80px;
+    padding-top: 70px;
 }
 .dwnmore {
     padding-top: 100px;
