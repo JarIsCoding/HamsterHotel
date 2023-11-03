@@ -30,10 +30,6 @@
     width: auto;
     height: 150px;
 }
-.tinyaward {
-    width:auto;
-    height: 100px;
-}
 .miniimgchange {
     object-fit: cover;
     height: auto;
@@ -86,8 +82,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 540px;
-    height: 232px;
+    width: auto;
+    height: 200px;
     color: white;
     background-color: #000324;
 }
@@ -196,6 +192,10 @@
     width: auto;
     height: 33px;
 }
+.navbar-nav .dropdown-menu {
+    background-color: #7E6551;
+    border-radius: 10px;
+  } 
 
 /* Colors */
 .navbar {
