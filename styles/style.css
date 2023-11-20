@@ -1,3 +1,8 @@
+/*
+NOTE
+Many classes are not used anymore as I pretty much rewrote a majority of the code.
+*/
+
 @font-face {
     font-family: "Dosis";
     src: url(/assets/Dosis.ttf);
@@ -6,6 +11,14 @@
 @font-face {
     font-family: "Source";
     src: url(/assets/SourceSansPro-Regular.otf);
+}
+
+.dosis {
+    font-family: Dosis;
+}
+
+.source {
+    font-family: Source;
 }
 
 .custom-color:hover {
@@ -294,7 +307,7 @@ li:hover {
     background-image: url(/assets/header.jpg);
     background-size: cover;
     background-position: center;
-    height: 652px;
+    height: 500px;
 
 }
 
@@ -310,6 +323,10 @@ li:hover {
 
 .blue {
     color: blue;
+}
+
+.lightblue {
+    color: #E5FEFF;
 }
 
 .bgcolor {
@@ -331,7 +348,7 @@ li:hover {
 .headerColor {
     background: #000324;
     opacity: 0.8;
-    margin-top: 11%;
+    margin-top: 7%;
     padding-bottom: 3%;
 }
 
