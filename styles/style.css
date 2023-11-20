@@ -1,18 +1,31 @@
+@font-face {
+    font-family: "Dosis";
+    src: url(/assets/Dosis.ttf);
+}
+
+@font-face {
+    font-family: "Source";
+    src: url(/assets/SourceSansPro-Regular.otf);
+}
+
 .custom-color:hover {
     border: dodgerblue;
     border-color: white;
     color: thistle;
-  }
-  li:hover {
+}
+
+li:hover {
     border: 2px solid white;
-  margin: -2px;
-  }
+    margin: -2px;
+}
+
 .heroimgchange {
     object-fit: cover;
     height: auto;
     width: 100%;
     max-height: 500px;
 }
+
 .homeimgchange {
     object-fit: cover;
     height: auto;
@@ -20,16 +33,19 @@
     max-width: 369px;
     max-height: 416px;
 }
+
 .lghomeimgchange {
     object-fit: cover;
     height: auto;
     width: 100%;
     max-height: 500px;
 }
+
 .awardsmal {
     width: auto;
     height: 150px;
 }
+
 .miniimgchange {
     object-fit: cover;
     height: auto;
@@ -37,16 +53,20 @@
     max-width: 561px;
     max-height: 234px;
 }
+
 .minitxtchange {
     max-width: 561px;
     max-height: 234px;
 }
+
 .thumbnail {
     position: relative;
 }
+
 .top-image {
     margin-left: -50px;
-  }
+}
+
 .caption {
     position: absolute;
     top: 50%;
@@ -57,6 +77,7 @@
     color: white;
     background-color: #000324;
 }
+
 .lgcaption {
     position: absolute;
     top: 50%;
@@ -67,6 +88,7 @@
     color: white;
     background-color: #000324;
 }
+
 .mdcaption {
     position: absolute;
     top: 50%;
@@ -77,6 +99,7 @@
     color: white;
     background-color: #000324;
 }
+
 .smcaption {
     position: absolute;
     top: 50%;
@@ -87,12 +110,14 @@
     color: white;
     background-color: #000324;
 }
+
 .bgimgchange {
     object-fit: cover;
     height: auto;
     width: 100%;
     max-height: 738px;
 }
+
 .bgcaption {
     position: absolute;
     top: 10%;
@@ -100,6 +125,7 @@
     transform: translate(-50%, -100%);
     color: white;
 }
+
 .bgcaption2 {
     position: absolute;
     top: 50%;
@@ -109,6 +135,7 @@
     height: 537px;
     color: white;
 }
+
 .bgcaption4 {
     position: absolute;
     top: 50%;
@@ -118,9 +145,11 @@
     height: 537px;
     color: white;
 }
+
 .card {
     height: 540px;
 }
+
 .reserv {
     position: absolute;
     top: 88%;
@@ -128,18 +157,21 @@
     height: 50px;
     width: 150px;
 }
+
 .bgimgchange2 {
     object-fit: cover;
     height: auto;
     width: 100%;
     max-height: 548px;
 }
+
 .bgimgchange3 {
     object-fit: cover;
     height: auto;
     width: 1137px;
     max-height: 414px;
 }
+
 .bgamenity {
     width: auto;
     height: 500px;
@@ -147,23 +179,28 @@
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-  }
+}
+
 .xlresroom {
     width: 1137px;
     max-height: 414px;
 }
+
 .lgresroom {
     width: 960px;
     max-height: 414px;
 }
+
 .mdresroom {
     width: 720px;
     max-height: 414px;
 }
+
 .smresroom {
     width: 540px;
     max-height: 414px;
 }
+
 .bgcaption3 {
     position: absolute;
     top: 40%;
@@ -171,67 +208,156 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
 .icon1 {
     height: 101px;
     width: 150px;
 }
+
 .icon2 {
     height: 104px;
     width: 150px;
 }
+
 .icon3 {
     height: 115px;
     width: 100px;
 }
+
 .icon4 {
     height: 110px;
     width: 155px;
 }
+
 .border {
     margin-top: 60px;
     width: auto;
     height: 33px;
 }
+
 .navbar-nav .dropdown-menu {
     background-color: #7E6551;
     border-radius: 10px;
-  } 
+}
+
+.bgBody {
+    display: flex;
+    background-image: url(/assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 738px;
+}
+
+.margBot {
+    margin-bottom: 125px;
+}
+
+.padMore {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cardB {
+    border-radius: 0;
+    border: 0px;
+}
+
+.card2 {
+    height: 590px
+}
+
+.cardClass {
+    height: 630px;
+}
+
+.padPack {
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: Dosis;
+}
+
+.pImage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.packFit {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-width: 650px;
+    max-height: 234px;
+}
+.bgHeader {
+    display: flex;
+    background-image: url(/assets/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 652px;
+
+}
 
 /* Colors */
 .navbar {
     background-color: #000324;
     height: 120px;
 }
+
 .white {
     color: white;
 }
+
 .blue {
     color: blue;
 }
+
 .bgcolor {
     background-color: #000324;
     opacity: .8;
 }
+
 .bgcolor2 {
     background-color: #000324;
 }
+
 .black {
     color: black;
 }
 
+.bgWhite {
+    background-color: white;
+}
+.headerColor {
+    background: #000324;
+    opacity: 0.8;
+    margin-top: 11%;
+    padding-bottom: 3%;
+}
+
 /*Movements*/
 .left {
-    margin-left: -140px;;
+    margin-left: -140px;
 }
+
+.left2 {
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .smoldwn {
     padding-top: 45px;
 }
-.dwn{
+
+.dwn {
     padding-top: 70px;
 }
+
 .dwnmore {
     padding-top: 100px;
 }
+
 .dwnflx {
     display: flex;
     align-items: end;
@@ -241,18 +367,25 @@
 .tf {
     font-size: 35px;
 }
+
 .fof {
     font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
 }
+
 .st {
     font-size: 16px;
 }
+
 .twef {
     font-size: 25px;
 }
+
 .t {
     font-size: 14px;
 }
+
 .tw {
     font-size: 20px;
 }
